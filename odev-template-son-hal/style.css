@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow:hidden;
+}
+.ust-tabs
+{
+    width: 100%;
+    height:max-content;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: white; 
+    border-bottom: 1px solid #ddd; 
+}
+.icerik p
+{
+    font-size: 0.5em;
+}
+.tabs img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); /* bunu sordum yapay zekaya */
+}
+.tabs a
+{
+    margin : 10px 20px;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+.tabs a:hover
+{
+    border-top: 4px solid black;
+}
+
+.sol {
+    display: flex;
+    gap: 20px; 
+}
+
+.sag {
+    display: flex;
+    gap: 20px;
+}
+
+.background {
+    margin-top: -43px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.background .orange-top {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    flex: 1;
+    background-color: rgb(255, 102, 0);
+}
+.background .orange-bottom {
+    z-index: -1;
+    width: 100%;
+    margin-top: 0px;
+    height: 68%;
+    position: absolute;
+    flex: 1;
+    background-color: rgb(204, 82, 0);
+}
+.icerik {
+    position: relative;
+    z-index: 2;
+    color: black;
+    top: 10%;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    font-size: 2em;
+    width: 35%;
+}
+.icerik a {
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 0.5em;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.5s;
+    border: 2px solid black;
+
+}
+.icerik a:hover
+{
+    background-color:transparent;
+    color: black;
+}
+.background img
+{
+    height: 650px;
+    position: absolute;
+    top: 175px;
+    right: 0px;
+}
